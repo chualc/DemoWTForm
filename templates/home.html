@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sample Code</title>
+</head>
+<body>
+    <ul>
+        <li><a href="/webForm">To display a form</a></li>
+    </ul>
+
+{% if  infoDict != null %}
+    {%  for key in infoDict  %}
+        {{ infoDict[key] }} <br>
+    {% endfor %}
+
+{%  endif %}
+</body>
+</html>
